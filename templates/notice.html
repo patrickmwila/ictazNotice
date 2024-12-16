@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICTAZ Notice - Registration Closed</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/ictaz_logo.png') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+</head>
+<body>
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <div class="text-center mb-4">
+                            <img src="{{ url_for('static', filename='images/ictaz_logo.png') }}" alt="ICTAZ Logo" class="logo mb-4">
+                            <h2 class="card-title">Notice</h2>
+                        </div>
+                        <div class="notice-content">
+                            <p class="lead">
+                                We have closed registration for new members until we finish onboarding existing members onto the new system.
+                            </p>
+                            <p>
+                                Commencement of registration for new members will be anounced. For old members, click here: <a href="https://apps.ictaz.org.zm/" class="text-primary" target="_blank">New System Login</a> and complete the onboarding process by selecting <strong>"Continue A Registration Here"</strong> and querying your details by ID Type. 
+                                You will then receive a link to complete your onboarding.
+                            </p>
+                            <div class="contact-info mt-4">
+                                <h4>Contact Details:</h4>
+                                <p>
+                                    For further details, contact the ICTAZ Secretariat:
+                                </p>
+                                <ul class="list-unstyled">
+                                    <li><i class="bi bi-envelope"></i> Email: <a href="mailto:info@ictaz.org.zm">info@ictaz.org.zm</a></li>
+                                    <li><i class="bi bi-telephone"></i> Call: +260 950 504 321</li>
+                                    <li><i class="bi bi-telephone"></i> Call: +260 975 050 4321</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>
+                        <span class="me-2">Copyright &copy; ICT Association of Zambia</span>
+                        <span class="mx-2">|</span>
+                        <span class="me-2">All Rights Reserved</span>
+                        <span class="mx-2">|</span>
+                        <span>Privacy</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
